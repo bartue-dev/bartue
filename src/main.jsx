@@ -7,7 +7,6 @@ import ErrorPage from './Pages/Error-page.jsx';
 import About from './Pages/About.jsx'
 import Projects from './Pages/Projects.jsx';
 import ContactMe from './Pages/Contact-me.jsx';
-import Terminal from './Pages/Terminal.jsx';
 
 const router = createBrowserRouter([
   {
