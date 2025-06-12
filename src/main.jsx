@@ -7,6 +7,7 @@ import ErrorPage from './Pages/Error-page.jsx';
 import About from './Pages/About.jsx'
 import Projects from './Pages/Projects.jsx';
 import ContactMe from './Pages/Contact-me.jsx';
+import Terminal from './Pages/Terminal.jsx';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,6 @@ const router = createBrowserRouter([
     element: < App/>,
     errorElement: < ErrorPage/>,
     children: [
-      { index: true, element: < About />},
       { path: "about", element: < About/> },
       { path: "projects", element: < Projects/> },
       { path: "contact-me", element: < ContactMe/> }

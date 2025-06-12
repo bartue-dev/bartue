@@ -12,7 +12,7 @@ function ErrorElement() {
       <p className="italic">
         {error.statusText || error.message}
       </p>
-      <Link to="/home" className="underline">go back to home</Link>
+      <Link to="/about" className="underline">back</Link>
     </div>
   )
 }

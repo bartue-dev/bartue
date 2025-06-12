@@ -2,8 +2,8 @@
 function About() {
 
   return(
-    <div className="flex items-center gap-30">
-      <div className="text-white text-xl">
+    <div className="flex items-center gap-23">
+      <div className=" text-xl text-white">
         <h1 className="italic">About me</h1>
         <div className="ml-2">
           <p>- Software Developer</p>
@@ -11,6 +11,7 @@ function About() {
         </div>
         <h1 className="italic mt-2">Tech Stack/Skills</h1>
         <div className="ml-2">
+          <p>- Git</p>
           <p>- Node js</p>
           <p>- Express js</p>
           <p>- PostgreSQL</p>
@@ -20,6 +21,14 @@ function About() {
         </div>
         <h1 className="italic mt-2">Contacts</h1>
         <div className="ml-2">
+          <p>
+            <a 
+              href="https://docs.google.com/document/d/1teH_zvjZLjz2UmiJVEPOOD1rLGv8vEEAhCYWguluzhI/edit?tab=t.0" 
+              target="_blank"
+              >
+                - <span className="underline">Resume</span>
+              </a>
+          </p>
           <p>
             <a 
               href="https://github.com/bartue-dev" 
@@ -40,9 +49,9 @@ function About() {
         </div>
       </div>
 
-      <div className="border">
+      <div>
         <img 
-          src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnhiZnVkeDBmbHdoYW1wamd5Zmw2azYxMWhtZ21pY29xZmR1Y2F2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1C8bHHJturSx2/giphy.gif" 
+          src="Code-Coding-GIF-by-PLCnext-Tec-unscreen.gif" 
           className="w-50 bg-none"
           />
       </div>

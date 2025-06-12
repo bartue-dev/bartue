@@ -1,12 +1,15 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function Links() {
-  const [activeLink, setActiveLink] = useState("about")
+  const location = useLocation();
+  const [activeLink, setActiveLink] = useState("")
 
-  const handleActiveLink = (path) => {
+  useEffect(() => {
+    const path = location.pathname.split("/").pop();
+
     setActiveLink(path)
-  }
+  }, [location])
 
   const links = [
     { to: "about", label: "About"},
@@ -21,7 +24,6 @@ function Links() {
             <Link
             key={link.to}
             to={link.to}
-            onClick={() => handleActiveLink(link.to)}
             className={`px-3 py-1 border-l-2  border-gray-500 rounded-r-sm ${activeLink === link.to ? "bg-gray-100 border-yellow-400": ""}`}
           >
             {link.label}
