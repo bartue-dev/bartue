@@ -10,7 +10,7 @@ function Contacts() {
         <div key={i} className="flex gap-4">
         <h1 className="text-fuchsia-600">{item.title}</h1>
         <h1>-&gt;</h1>
-        <a href="">{item.description}</a>
+        <a href={item?.link} target="_blank">{item.description}</a>
       </div>
       ))}
       
