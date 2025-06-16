@@ -77,19 +77,22 @@ export const projects = [
 export const contacts = [
   {
     title: "Resume",
-    description: "Download my resume"
+    description: "get my resume",
+    link: "https://docs.google.com/document/d/1teH_zvjZLjz2UmiJVEPOOD1rLGv8vEEAhCYWguluzhI/edit?tab=t.0"
   },
   {
     title: "Github",
-    description: "github/bartue-dev"
+    description: "github/bartue-dev",
+    link: "https://github.com/bartue-dev"
   },
   {
     title: "LinkedIn",
-    description: "linkedIn/bart-batiancila"
+    description: "linkedIn/bart-batiancila",
+    link: "https://www.linkedin.com/in/bart-batiancila-316a52322/"
   },
   {
     title: "Email",
-    description: "bartbatiancila28@gmail.com"
+    description: "bartbatiancila28@gmail.com",
   },
   
 ]
