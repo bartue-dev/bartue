@@ -23,7 +23,7 @@ function Cli() {
   }
 
   return (
-    <div className="p-2 overflow-auto" style={{ scrollbarColor: "white #264653", scrollbarWidth: "thin"}}>
+    <div className="p-2 overflow-auto h-[88vh]" style={{ scrollbarColor: "white #264653", scrollbarWidth: "thin"}}>
       <Contacts/>
 
       <div className="text-zinc-200 mb-4">
@@ -48,7 +48,7 @@ function Cli() {
         </h1>
         <form 
           onSubmit={handleInputSubmit}
-          className="flex-1"
+          className="flex-1 ml-2"
         >
           <input 
             type="text" 
