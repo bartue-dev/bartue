@@ -1,13 +1,10 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 
 const CommandContext = createContext()
 
 export function CommandProvider({children}) {
   const [command, setCommand] = useState([]);
 
-  useEffect(() => {
-    console.log("Command:", command)
-  }, [command])
 
   return (
     <CommandContext.Provider value={{command, setCommand}}>
