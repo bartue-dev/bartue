@@ -12,7 +12,9 @@ function Cli() {
     e.preventDefault();
 
     const formData = new FormData(e.target);
-    const newCommand = formData.get("command");
+    const newCommand = formData.get("command").toLowerCase();
+
+    console.log("New command:", newCommand)
 
     if (newCommand === "clear") {
       setCommand([])
