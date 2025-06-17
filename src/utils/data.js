@@ -58,7 +58,7 @@ export const projects = [
     },
     {
       title: "file uploader",
-      about: "Basically an file manager. Used supabase storage to store files and it is Server side rendering app",
+      about: "Basically a file manager. Used supabase storage to store files and it is Server side rendering app",
       backend: ["express", "prisma", "supabase", "passport-js", "express-validator"],
       code:{
         backend: "https://github.com/bartue-dev/file-uploader"
@@ -71,6 +71,10 @@ export const projects = [
        code:{
         frontend: "https://github.com/bartue-dev/cv-application-generator"
       } 
+    },
+    {
+      title: "others",
+      link: "https://github.com/bartue-dev",
     }
   ]
 
