@@ -20,12 +20,15 @@ function Skills() {
                 key={j}
                 className="text-green-600"
               >
-                {`${lang}${j !== item.language.length-1 ? "," : ""}`}
+                {/* add "," if item is equal to language length -1 (which is the max length of an array) */}
+                {`${lang}${j !== item?.language?.length-1 ? "," : ""}`}
               </h1>
             ))}
           </div>
         </div>
       ))}
+
+      <p className="mt-3">type <span className="text-pink-600"> projects </span> to see my list of projects </p>
     </div>
   )
 }
