@@ -12,7 +12,7 @@ function Cli() {
     e.preventDefault();
 
     const formData = new FormData(e.target);
-    const newCommand = formData.get("command").toLowerCase();
+    const newCommand = formData.get("command").trim().toLowerCase();
 
     if (newCommand === "clear") {
       setCommand([])
@@ -23,7 +23,7 @@ function Cli() {
   }
 
   return (
-    <div className="p-2 overflow-auto h-[88vh]" style={{ scrollbarColor: "white #264653", scrollbarWidth: "thin"}}>
+    <div className="p-2 overflow-auto h-[88vh] text-xs sm:text-base" style={{ scrollbarColor: "white #264653", scrollbarWidth: "thin"}}>
       <Contacts/>
 
       <div className="text-zinc-200 mb-4">
@@ -52,7 +52,7 @@ function Cli() {
         >
           <input 
             type="text" 
-            className="input input-ghost !bg-transparent border-none outline-none focus:!outline-none focus:!ring-0   focus:!bg-transparent h-7 w-full text-base !text-zinc-200 caret-zinc-100 lowercase"  
+            className="input input-ghost !bg-transparent border-none outline-none focus:!outline-none focus:!ring-0   focus:!bg-transparent h-7 w-full !text-zinc-200 caret-zinc-100 lowercase text-xs sm:text-base"  
             name="command"
             autoFocus
             autoComplete="off"
