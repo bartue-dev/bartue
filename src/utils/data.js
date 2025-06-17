@@ -74,7 +74,7 @@ export const projects = [
     },
     {
       title: "others",
-      link: "https://github.com/bartue-dev",
+      link: "https://github.com/bartue-dev?tab=repositories",
     }
   ]
 
