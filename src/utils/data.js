@@ -53,7 +53,7 @@ export const projects = [
       about: "Build my first API",
       backend: ["express", "prisma", "jwt", "express-validator"],
       code:{
-        backend: "https://github.com/bartue-dev/blog_api",
+        backend: "https://github.com/bartue-dev/blog_api/blob/main/README.md",
       } 
     },
     {
@@ -61,7 +61,7 @@ export const projects = [
       about: "Basically a file manager. Used supabase storage to store files and it is Server side rendering app",
       backend: ["express", "prisma", "supabase", "passport-js", "express-validator"],
       code:{
-        backend: "https://github.com/bartue-dev/file-uploader"
+        backend: "https://github.com/bartue-dev/file-uploader/blob/main/README.md"
       } 
     },
     {
@@ -69,7 +69,7 @@ export const projects = [
       about: "An app that can build a downloadable cv/resume",
       frontend: ["react-js"],
        code:{
-        frontend: "https://github.com/bartue-dev/cv-application-generator"
+        frontend: "https://github.com/bartue-dev/cv-application-generator/blob/main/README.md"
       } 
     },
     {

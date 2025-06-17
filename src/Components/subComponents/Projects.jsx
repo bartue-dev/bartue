@@ -26,7 +26,7 @@ function Projects() {
 
               {/* if frontend exist then render frontend data */}
               {item.code?.frontend
-              && <a href={item.code?.frontend} className="underline underline-offset-2">
+              && <a href={item.code?.frontend} target="_blank" className="underline underline-offset-2">
                   frontend code
                 </a>
               }
@@ -36,7 +36,7 @@ function Projects() {
 
               {/* if backend exist then render its data */}
               {item.code?.backend
-                && <a href={item.code?.backend} className="underline underline-offset-2">
+                && <a href={item.code?.backend} target="_blank" className="underline underline-offset-2">
                     backend code
                   </a>
               }
